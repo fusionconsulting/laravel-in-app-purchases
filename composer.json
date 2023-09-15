@@ -20,7 +20,7 @@
     "php": ">=8.0",
     "ext-json": "*",
     "ext-openssl": "*",
-    "imdhemy/appstore-iap": "^1.6",
+    "imdhemy/appstore-iap": "dev-main",
     "imdhemy/google-play-billing": "^1.4",
     "laravel/framework": ">=8.0"
   },
@@ -36,6 +36,12 @@
       "Imdhemy\\Purchases\\": "src"
     }
   },
+  "repositories": [
+      {
+          "type": "vcs",
+          "url": "https://github.com/fusionconsulting/laravel-purchases"
+      }
+  ],
   "autoload-dev": {
     "psr-4": {
       "Imdhemy\\Purchases\\Tests\\": "tests"
