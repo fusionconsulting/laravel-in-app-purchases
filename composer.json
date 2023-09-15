@@ -20,7 +20,7 @@
     "php": ">=8.0",
     "ext-json": "*",
     "ext-openssl": "*",
-    "imdhemy/appstore-iap": "dev-main",
+    "imdhemy/appstore-iap": "1.7.0",
     "imdhemy/google-play-billing": "^1.4",
     "laravel/framework": ">=8.0"
   },
